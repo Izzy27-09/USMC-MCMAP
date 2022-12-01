@@ -1,0 +1,176 @@
+body {
+  background-color: rgb(215, 233, 250);
+  margin: auto auto;
+  width: 90%;
+}
+
+
+body nav ul li a {
+  text-decoration: none;
+}
+
+body nav ul li {
+  padding: 1rem;
+  margin: auto;
+  list-style-type: none;
+  text-decoration: none;
+  text-align: center;
+}
+
+#second {
+  width: 1000px;
+  margin: auto auto;
+}
+
+#james {
+  width: 500px;
+  margin: auto auto;
+}
+
+.center {
+  text-align: center;
+}
+
+body nav ul {
+  display: flex;
+  flex-direction: row;
+}
+
+strong {
+  text-decoration: underline;
+  font-weight: bold;
+}
+.c {
+  width: 90%;
+  margin: auto;
+
+}
+body ul li {
+  width: 90%;
+  margin: auto;
+}
+
+.carousel {
+  display: flex;
+  flex-direction: row;
+  max-width: 80%;
+  margin-left: 20px;
+  margin: auto;
+}
+
+body nav {
+  background-color: rgb(141, 200, 253);
+  display: block;
+  margin: auto;
+  width: 70%;
+}
+
+h1 {
+  text-align: center;
+  text-decoration: underline;
+}
+
+h2 {
+  text-decoration: underline;
+}
+
+h3 {
+  text-decoration: underline;
+
+}
+
+h4 {
+  text-decoration: underline;
+
+}
+
+.larger {
+  font-size: 20px;
+}
+
+.normal {
+  font-size: 12px;
+}
+
+.nav.sticky {
+  text-align: center;
+  position: fixed;
+  top: 0;
+  background-color: white;
+  width: 90%;
+  margin-right: 10%;
+}
+
+
+.indent {
+  padding-left: .8em;
+  border-left: 8px solid #0970c4;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+figcaption {
+  font-style: italic;
+}
+
+.wrapper {
+  flex-wrap: wrap;
+}
+
+
+
+.btnpair {
+  border-radius: 2rem;
+  font-size: large;
+  background-color: white;
+  text-decoration: none;
+  width: 100px;
+  margin: auto auto;
+}
+
+.accessible-hidden {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+.hidden {
+  display: none;
+}
+
+
+
+.links {
+  display: flex;
+  flex-direction: column;
+}
+
+.previous {
+  max-height: 30px;
+  margin: auto;
+
+}
+
+.next {
+  max-height: 30px;
+  margin: auto;
+
+}
+
+.come {
+  display: flex;
+  flex-direction: row;
+}
+
+@media (max-width:800px) {
+  img {
+    max-width: 100%;
+  }
+
+  .come {
+    flex-direction: column;
+  }
+
+}
